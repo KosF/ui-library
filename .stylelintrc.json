@@ -1,0 +1,26 @@
+{
+  "extends": ["stylelint-config-recommended-scss"],
+  "rules": {
+    "max-nesting-depth": [3, {}],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["export", "import", "global", "local", "external"]
+      }
+    ],
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": ["composes", "compose-with"],
+        "ignoreSelectors": [":export", ":import"]
+      }
+    ],
+    "no-descending-specificity": [
+      true,
+      {
+        "ignore": ["selectors-within-list"]
+      }
+    ]
+  },
+  "ignoreFiles": ["**/*.md"]
+}

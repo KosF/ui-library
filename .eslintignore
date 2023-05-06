@@ -1,0 +1,8 @@
+/node_modules
+/public
+/.prettierrc.js
+/.eslintrc.js
+/package.json
+/tslint.json
+/tsconfig.node.json
+/tsconfig.json
