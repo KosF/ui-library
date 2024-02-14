@@ -3,7 +3,7 @@ run-name: 'Deployment on Development Merge: On Push'
 on:
   push:
     branches:
-      - development
+      - main
 jobs:
   deployment:
     runs-on: ubuntu-latest
